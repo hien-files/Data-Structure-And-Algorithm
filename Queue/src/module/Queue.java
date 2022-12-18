@@ -1,5 +1,12 @@
 package module;
 
+/** Queue
+ * là kiểu danh sách tuyến tính 
+ * hoạt động theo nguyên tắc "Vào trước – ra trước (First In – First Out)" -> phần tử đc thêm vào trước thì lấy ra trước
+ * rear: quản lý cuối danh sách -> thêm phần tử vào đc thực hiện bởi rear
+ * front: quản lý ở đầu danh sách -> loại bỏ phần tử vào đc thực hiện bởi front
+ */
+
 public class Queue {
     private int front;
     private int rear;
