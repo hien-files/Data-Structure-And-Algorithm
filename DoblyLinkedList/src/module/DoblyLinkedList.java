@@ -1,15 +1,14 @@
 package module;
 
-import javax.lang.model.element.Element;
-
 /**
- * LinkedList
+ * DoblyLinkedList
  * là một dang cấu trúc dữ liệu tuyến tính,
  * Cấu trúc dữ liệu động,
- * mỗi phần tử đều liên kết với phần tử đúng sau nó,
- * mỗi phần tử là một Node gồm hai thành phần
+ * mỗi phần tử đều liên kết với phần tử đứng trước và đứng sau nó,
+ * mỗi phần tử là một Node gồm ba thành phần
  * + data: lưu thông tin của phần tử đó
  * + next: lưu phần tử đứng sau, nếu là pt cuối thì next là null
+ * + prev: lưu phần tử đứng trước, nếu là pt đầu thì prev là null
  */
 
 public class DoblyLinkedList {
